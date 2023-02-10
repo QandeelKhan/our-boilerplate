@@ -51,6 +51,7 @@ const Home = () => {
     // on logout, unset data in store,unset token in store.remove token from browser
     const handleLogout = () => {
         // dispatch(unSetUserInfo());
+
         removeToken();
         // navigate("/login");
     };
